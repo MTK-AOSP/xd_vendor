@@ -21,7 +21,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/telephony_system.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_default.mk)
 
 # Inherit xdroid products.
-$(call inherit-product, vendor/xd/config/common.mk)
+$(call inherit-product, vendor/xd/config/common_full_phone.mk)
 
 # Shared java libs
 PRODUCT_PACKAGES += \
