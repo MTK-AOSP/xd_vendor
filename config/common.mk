@@ -23,3 +23,7 @@ $(call inherit-product, vendor/xd/config/xd_BoardConfig.mk)
 
 # Inherit from xdroid stuff
 $(call inherit-product, vendor/xdUI/config.mk)
+
+# Inherit Google Packages
+$(call inherit-product, vendor/google/gms/config.mk)
+$(call inherit-product, vendor/google/pixel/config.mk)
