@@ -20,3 +20,6 @@ $(call inherit-product, vendor/xd/config/versioning.mk)
 
 # Inherit from our kernel/header generator
 $(call inherit-product, vendor/xd/config/xd_BoardConfig.mk)
+
+# Inherit from xdroid stuff
+$(call inherit-product, vendor/xdUI/config.mk)
