@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-PLATFORM_XD_RELEASE := WHITESTONE
+PLATFORM_XD_RELEASE := redwhite
 PLATFORM_XD_VERSION := $(PLATFORM_XD_RELEASE).$(shell date +%m%d%H%M)
 
 TARGET_PRODUCT_SHORT := $(subst xd_,,$(TARGET_DEVICE))
